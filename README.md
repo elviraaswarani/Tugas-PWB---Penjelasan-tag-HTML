@@ -1,64 +1,11 @@
 # Tugas-PWB---Penjelasan-tag-HTML
-# Belajar HTML Dasar
-
-1. <html>
-Fungsi: Tag utama yang membungkus seluruh halaman HTML  
-Contoh:
-<html>
-  
-</html>
-
-2. <head>
-Fungsi: Berisi informasi tentang halaman (metadata)  
-Contoh:
-<head>
-  <title>Judul</title>
-</head>
-
-3. <title>
-Fungsi: Menampilkan judul di tab browser  
-Contoh:
-<title>Website Saya</title>
-
-4. <body>
-Fungsi: Menampilkan isi halaman  
-Contoh:
-<body>
-  <h1>Hello</h1>
-</body>
-
-5. <h1>
-Fungsi: Judul terbesar  
-Contoh:
-<h1>Judul Utama</h1>
-
-6. <p>
-Fungsi: Paragraf  
-Contoh:
-<p>Ini paragraf</p>
-
-7. <a>
-Fungsi: Membuat link  
-Contoh:
-<a href="https://google.com">Google</a>
-
-8. <img>
-Fungsi: Menampilkan gambar  
-Contoh:
-<img src="gambar.jpg" alt="gambar">
-
-9. <ul>
-Fungsi: List tidak berurutan  
-Contoh:
-<ul>
-  <li>Item 1</li>
-</ul>
-
-10. <table>
-Fungsi: Membuat tabel  
-Contoh:
-<table>
-  <tr>
-    <td>Data</td>
-  </tr>
-</table>
+1.  <!DOCTYPE html>: Formalitas wajib untuk memberi tahu browser bahwa ini adalah dokumen **HTML5*.
+2.  <html>: Akar atau **pembungkus utama* seluruh kode HTML.
+3.  <head>: Tempat menaruh **informasi di balik layar* (seperti judul tab atau pengaturan teknis).
+4.  <title>: Menentukan **nama/judul* yang muncul pada tab browser.
+5.  <body>: Wadah utama untuk **semua konten* yang tampil secara visual di website.
+6.  <h1> - <h2>: Tag **judul*, di mana <h1> adalah yang terbesar dan <h2> sebagai sub-judul.
+7.  <p>: Digunakan untuk membungkus teks dalam bentuk **paragraf*.
+8.  <a>: Membuat **link* (tautan) agar user bisa berpindah halaman melalui atribut href.
+9.  <img>: Menampilkan **gambar* dengan atribut src (sumber) dan alt (teks alternatif).
+10. <ul> & <li>: <ul> membuat **daftar poin* (bullet), dan <li> adalah isi tiap butir daftarnya.
